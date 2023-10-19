@@ -14,6 +14,8 @@ body {
   width: 100%;
   background-color: rgb(20, 22, 29);
   align-items: center;
+  z-index: 1000;
+  border-bottom: 2px solid #48abe0;
 }
 
 .search {
@@ -71,6 +73,8 @@ body {
   font-size: 22px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   justify-content: space-around;
+  transition: all 2s;
+  transition-timing-function: linear;
 }
 
 .container1 {
@@ -187,6 +191,7 @@ body {
   border-radius: 40px;
   outline: none;
   font-size: large;
+  background-color: white;
 }
 
 .apple-pic:hover {
@@ -389,7 +394,7 @@ body {
 }
 
 .prod-rev {
-  width: 60%;
+  width: 50%;
   height: 100vh;
 }
 .model {
@@ -494,4 +499,45 @@ body {
 }
 .buy-btn {
   transition: all 1s;
+}
+.nav-2 a:hover {
+  border-bottom: 2px solid #48abe0;
+}
+.box1:hover {
+  transform: scale(1.1);
+}
+
+.box1 {
+  transition: all 2s;
+}
+
+.box2:hover {
+  transform: scale(1.1);
+}
+
+.box2 {
+  transition: all 2s;
+}
+.prod-be:hover {
+  transform: scale(1.1);
+}
+
+.prod-be {
+  transition: all 2s;
+}
+
+.prod-rev:hover {
+  transform: scale(1.1);
+}
+
+.prod-rev {
+  transition: all 2s;
+}
+
+.laptops-list img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 50px #48abe0;
+}
+.laptops-list img {
+  transition: all 2s;
 }
